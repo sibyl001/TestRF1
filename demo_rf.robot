@@ -12,7 +12,7 @@ ${password}    Gdadmin
 谷歌浏览器访问工单中心
      SeleniumLibrary.Open Browser    ${url}    chrome
 登录
-    BuiltIn.Sleep    5    
+    BuiltIn.Sleep    3    
     SeleniumLibrary.Input Text    name=username    ${username}
     SeleniumLibrary.Input Password    name=password    ${password}
     SeleniumLibrary.Click Button    css=[type=submit]
